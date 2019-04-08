@@ -1,0 +1,189 @@
+/* EDIT BELOW THIS LINE */
+
+/* Add styles for section-1 */
+
+bak
+
+.section-9 {
+    flex-direction: row;
+    display: flex;
+    height: 500px;
+    margin: 0 auto;
+    width: 800px;
+
+}
+.section-9 > .flex-item{
+    width: 300px;
+}
+
+.section-91 {
+    flex-direction: row;
+    display: flex;
+    height: 500px;
+    width: 800px;
+    flex-wrap: wrap-reverse;
+}
+
+.section-91 > .flex-item{
+    flex-basis: 300px;
+    height: 50%;
+}
+
+.section-92 {
+    flex-direction: column;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.section-92 > .flex-item{
+    width: 300px;
+}
+
+.section-93 {
+    flex-direction: row;
+    display: flex;
+    width: 800px;
+}
+.section-93 > .flex-item{
+    width: 300px;
+   
+}
+.section-93 > .flex-item:nth-child(even){
+    flex-shrink: 1;
+}
+
+.section-93 > .flex-item:nth-child(odd){
+    flex-shrink: 0;
+}
+
+.section-1 {
+    flex-direction: row;
+    height: 200px;
+}
+
+.section-1 > .flex-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 > .flex-item:nth-child(even) {
+    flex-basis: 50%;
+}
+
+.section-1 > .flex-item:nth-child(odd) {
+    flex-basis: 100%;
+}
+
+/* Add styles for section-2 */
+.section-2 {
+    flex-direction: column-reverse;
+
+}
+.section-2 > .flex-item:last-child {
+    flex: 1;
+    align-self: flex-end;
+    width: 50%;
+}
+
+.section-2 > .flex-item:first-child {
+    flex: 1;
+    width: 50%;
+}
+
+/* Add styles for section-3 */
+
+.section-3 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.section-3 > .flex-item {
+    flex-basis: 50%;
+}
+.section-3 > .flex-item:first-child {
+    flex-basis: 100%;
+}
+.section-3 > .flex-item:last-child {
+    flex-basis: 100%;
+}
+
+/* Add styles for section-4 */
+
+.section-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 > .flex-item {
+    height: 60px;
+    width: 100px;
+}
+
+/* Add styles for section-5 */
+
+.section-5 {
+    flex-direction: column-reverse;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-5  > .space-invader:first-child {
+    order: 10;
+    align-self: center;
+}
+/* Add styles for section-6 */
+
+.section-6 {
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-evenly;
+}
+
+/* Add styles for section-7 */
+.section-7 {
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    justify-content: space-evenly;
+}
+
+.section-7 > .cartoon {
+    flex-basis: 25%;
+}
+
+
+.section-7 > .cartoon:nth-child(4) {
+    order: 5; 
+    align-self: flex-end;
+    flex-basis: 20%
+}
+
+.section-7 > .cartoon:nth-child(5) {
+    order: 4;
+}
+
+.section-7 > .cartoon:nth-child(1) {
+    order: 3;
+}
+
+.section-7 > .cartoon:nth-child(2) {
+    order: 2;
+}
+
+/* Add styles for section-8 */
+.section-8 {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+.section-8 > .flex-item:first-child {
+    flex-basis: 100%;
+}
+
+.section-8 >.flex-item:nth-child(n+2) {
+    flex-grow: 1;
+}
